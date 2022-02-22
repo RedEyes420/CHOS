@@ -1,0 +1,35 @@
+<html>
+  <title>CHOS420</title>
+  <body>
+    <center><h1>Welcome To "CHOS" World</h1></center>
+    <center><h2 id="name">JamGanjMasta</h2></center>
+    <button id="change" type="button">Сменить Имя</button>
+    <hr>
+    <p><em>For those who understand what 4.20 means. (Для тех кто в теме 4.20)</em></p>
+    <hr>
+    <h3>"Children Of The Sun" - сокращенно "CHOS"</h3>
+    <p><h2>Наши увлечения:</h2></p>
+     <ul>
+       <li>Срать на провода и делать замыкание</li>
+       <li>Дрочить на собак</li>
+       <li>Ссать кровью на шлюх подзаборных</li>
+     </ul>
+
+  </body>
+</html>
+
+
+
+<script>
+    var namee;
+
+    function newname(){
+      namee= prompt('Введите Ваше имя!')
+      updateList();
+    }
+    function updateList (){
+      document.getElementById("name").innerHTML = namee
+    }
+
+document.getElementById("change").onclick =newname
+</script>
